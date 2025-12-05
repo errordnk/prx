@@ -1,5 +1,8 @@
 version: '3'
 
+env:
+  TASK_TEMP_DIR: /home/dnk/.task
+
 tasks:
   default:
     desc: Pull and build prx
